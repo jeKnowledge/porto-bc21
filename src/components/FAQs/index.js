@@ -1,20 +1,25 @@
 import React, {useState} from 'react';
+import Collapsible from 'react-collapsible';
+import "./Faq.css"
+
 import {Heading, PointWrapper, PointF} from '../Elements/PointElement';
 import {Data} from './Data';
 import { 
     FaqsContainer,
     FaqsContent,
     QuestionWrap,
-    QuestionH1,
+    AnswerP,
+/*     QuestionH1,
     AnswerP,
     QuestionBox,
-    ToggleButton,
+    ToggleButton, */
     FPW,
-    PP} from './FaqsElements';
+    ToggleButton,
+    } from './FaqsElements';
 
 const FAQsSection = () => {
 
-    const [clicked, setClicked] = useState(false)
+    /* const [clicked, setClicked] = useState(false)
 
     const toggle = index => {
         if(clicked === index) {
@@ -22,7 +27,7 @@ const FAQsSection = () => {
             return setClicked(null)
         }
         setClicked(index)
-    }
+    } */
     
     return (
         <FaqsContainer id='faq'>
@@ -37,21 +42,17 @@ const FAQsSection = () => {
                 return(
                     <>  
                         <QuestionWrap>
-                            <QuestionBox
-                            onClick={() =>
-                            toggle(index)}
+                            <Collapsible className="H1T"
                             key={index}
+                            trigger={item.question}
                             >
-                                <QuestionH1>{item.question}</QuestionH1>
-                                <ToggleButton/>
-                            </QuestionBox>
-
-                            {clicked === index ? (
-                                <PP>
-                                    <AnswerP>{item.answer}</AnswerP>
-                                </PP>
-                            ) : null}
+                            {/* <ToggleButton /> */}
                             
+                            <AnswerP>
+                                {/* <div className="line"></div> */}
+                                {/* <div className="ball"></div> */}
+                                {item.answer}</AnswerP>
+                            </Collapsible>
                         </QuestionWrap>
                     </>
                 );

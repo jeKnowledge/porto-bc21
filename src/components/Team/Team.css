@@ -1,0 +1,152 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 75px;
+  width: max-content;
+  align-items: center;
+  margin: 50px auto 0 auto;
+  padding: 15px;
+
+  /*importante para esconder as linhas que ficam de fora*/
+  overflow: hidden;
+}
+
+/*Grid em tablet*/
+@media only screen and (max-width: 860px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/*Grid em mobile*/
+@media only screen and (max-width: 620px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.element {
+  height: 175px;
+  width: 175px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 10s ease-in-out;
+}
+
+/*linha horizontal*/
+.element::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  height: 2px;
+  background: white;
+  /*mesma width que a gap*/
+  width: 75px;
+  left: 100%;
+  top: calc(50% - 1px);
+}
+
+/*linha vertical*/
+.element::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 2px;
+  background: white;
+  /*mesma height que a gap*/
+  height: 75px;
+  top: 100%;
+  left: calc(50% - 1px);
+}
+
+.element:nth-child(4n + 0)::after {
+  background: transparent;
+}
+
+.element:nth-child(1n + 5)::before {
+  background: transparent;
+}
+
+@media only screen and (max-width: 620px) {
+  .element:nth-child(2n + 0)::after {
+    background: transparent;
+  }
+
+  .element:nth-child(1n + 5)::before {
+    background: white;
+  }
+
+  .element:nth-child(1n + 7)::before {
+    background: transparent;
+  }
+}
+
+.element .imgA {
+  width: 130px;
+  height: 130px;
+  background-color: white;
+  transform: rotate(45deg);
+
+  filter: drop-shadow(0px 0px 5px #ffffff);
+
+  transition: all 10s ease-in-out;
+}
+
+.imgA:hover {
+  transition: all 10s ease-in-out;
+}
+
+/*aqui esta div ".img" pode ter a imagem e o nome da pessoa lá dentro*/
+.img {
+  margin-top: -25px;
+  margin-left: -25px;
+  width: 175px;
+  height: 175px;
+  transform: rotate(-45deg);
+
+  transition: all 0.2s ease-in-out;
+}
+
+.whiteBG {
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  margin-top: -160px;
+  background: rgba(255, 255, 255, 0.7);
+
+  width: 130px;
+  height: 130px;
+
+  filter: drop-shadow(0px 0px 5px #ffffff);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.nameTeam {
+  margin-left: -10%;
+  position: relative;
+  pointer-events: none;
+  transform: rotate(-45deg);
+  font-size: 16.2px;
+  font-weight: bold;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.jobTeam {
+  margin-top: -8%;
+  margin-left: 10%;
+  position: relative;
+  pointer-events: none;
+  transform: rotate(-45deg);
+  font-size: 14px;
+  font-weight: normal;
+  color: #06649e;
+
+  transition: all 0.2s ease-in-out;
+}

@@ -18,7 +18,7 @@ export const Button = styled(Link)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: ${({primary}) => (primary ? 'red': '#fff' )};
+        background: ${({primary}) => (primary ? 'red': '#50A1D2' )};
     }
 
     @media screen and (max-width: 760px) {
@@ -26,11 +26,23 @@ export const Button = styled(Link)`
         font-size: 18px;
         line-height: 100%;
     }
+    
 `
 
 export const ButtonP = styled.p`
-    line-height: 120%;
+    transition: all 0.2s ease-in-out;
     background: linear-gradient(0.25turn, #040305, #1D2444, #06649E);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    @media screen and (max-width: 760px) {
+        line-height: 140%;
+    }
+`
+
+export const ButtonP2 = styled.p`
+    transition: all 0.2s ease-in-out;
+    background: linear-gradient(0.25turn, #fff, #fff, #fff);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 

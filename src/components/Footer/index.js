@@ -1,47 +1,86 @@
-import React from 'react'
-import { 
-    FooterContainer, 
-    FooterContent,
-    ContactsSection,
-    SocialSection,
-    LogoSection,
-    PointWrapper,
-    PointV } from './FooterElements'
+import React, { useState, useEffect } from "react";
+import { animateScroll as scroll } from "react-scroll";
+import {
+  FooterContainer,
+  FooterContent,
+  ContactsSection,
+  SocialSection,
+  LogoSection,
+  PointWrapper,
+  PointV,
+  Title,
+  Info,
+  SocialMediaSection,
+  SocialIcon,
+  Facebook,
+  Twitter,
+  Instagram,
+  LinkedIn,
+  PortoBCLogo,
+  JeKSection,
+  JeKnowlege,
+} from "./FooterElements";
 
 const FooterSection = () => {
-    return (
-        <FooterContainer>
-            <FooterContent>
-                
-                <ContactsSection>
-                    {/* <Title>Contacts</Title>
-                    <Info>geral@portobc.com</Info>
-                    <Info>+351 926 590 223</Info>
-                    <Info>+351 919 818 111</Info> */}
-                </ContactsSection>
-                <PointWrapper><PointV/></PointWrapper>
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
 
-                <SocialSection>
-                    {/* <SocialMediaSection>
-                        <Facebook />
-                        <Twitter />
-                        <Instagram />
-                        <LinkedIn />
-                    </SocialMediaSection> */}
-                </SocialSection>
-                <PointWrapper><PointV/></PointWrapper>
- 
-                <LogoSection>
-                    {/* <PortoBCLogo />
-                    <JeKSection>
-                        <Pjek>Created by:</Pjek>
-                        <JeKnowlege />
-                    </JeKSection> */}
-                </LogoSection>
+  return (
+    <FooterContainer>
+      <FooterContent>
+        <ContactsSection>
+          <Title>Contacts</Title>
+          <div>
+            <Info>geral@portobc.com</Info>
+            <Info>+351 926 590 223</Info>
+            <Info>+351 919 818 111</Info>
+          </div>
+        </ContactsSection>
+        <PointWrapper>
+          <PointV />
+        </PointWrapper>
 
-            </FooterContent>
-        </FooterContainer>
-    )
-}
+        <SocialSection>
+          <SocialMediaSection>
+            <a href="https://www.facebook.com/port0.bc/" target="_blank">
+              <SocialIcon>
+                <Facebook />
+              </SocialIcon>
+            </a>
 
-export default FooterSection
+            <a href="https://www.instagram.com/porto.bc_/" target="_blank">
+              <SocialIcon>
+                <Instagram />
+              </SocialIcon>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/company/porto-blockchain-conference/"
+              target="_blank"
+            >
+              <SocialIcon>
+                <LinkedIn />
+              </SocialIcon>
+            </a>
+          </SocialMediaSection>
+        </SocialSection>
+        <PointWrapper>
+          <PointV />
+        </PointWrapper>
+
+        <LogoSection>
+          <PortoBCLogo to="/" onClick={toggleHome} />
+          <JeKSection>
+            <Info>Created by:</Info>
+            <a href="https://jeknowledge.pt" target="_blank">
+              <JeKnowlege />
+            </a>
+          </JeKSection>
+        </LogoSection>
+      </FooterContent>
+    </FooterContainer>
+  );
+};
+
+export default FooterSection;

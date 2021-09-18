@@ -94,7 +94,5 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
     font-weight: bold;
     display: inline-block;
 
-    background: linear-gradient(#9c47fc, #356ad2);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #fff ;
 `;

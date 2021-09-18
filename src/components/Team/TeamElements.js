@@ -1,6 +1,43 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const TeamContainer = styled.div`
-    width: 100vw;
-    height: 150vh;
+  padding-top: 80px;
+
+  overflow: hidden;
+`;
+
+export const Card = styled.div`
+  width: 100px;
+  height: 100px;
+  background: white;
+  transform: rotate(45deg);
+  margin: 40px;
+`;
+
+export const Grid = styled.div`
+  background: red;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  width: max-content;
+  margin: 0 auto;
+
+  @media screen and (max-width: 760px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+`;
+
+export const TeamBar = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -48px;
+
+  @media screen and (max-width: 760px) {
+    margin-right: -208px;
+  }
+`;
+
+export const Team = styled.div`
+  width: max-content;
 `;

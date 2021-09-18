@@ -1,14 +1,11 @@
 import styled from 'styled-components';
 
 export const FaqsContainer = styled.div`
-    z-index: 1;
     position: relative;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    height: 100vh;
 `;
 
 export const FPW = styled.div`
@@ -26,17 +23,14 @@ export const FPW = styled.div`
 `
 
 export const FaqsContent = styled.div`
-    z-index: 3;
+    width: 80%;
+    max-width: 1100px;
 
-    width: 90%;
-    max-width: 1150px;
-
-    position: absolute;
     display: flex;
     flex-direction: column;
 
     padding: 8px 40px;
-    margin-top: 280px;
+    margin-top: 16px;
     
     @media screen and (max-width: 900px) {
         padding: 0 40px;
@@ -44,6 +38,7 @@ export const FaqsContent = styled.div`
 `;
 
 export const QuestionWrap = styled.div`
+    position: relative;
     width: 100%;
     margin-bottom: 40px;
 
@@ -66,6 +61,10 @@ export const QuestionBox = styled.div`
 `
 
 export const ToggleButton = styled.div`
+    position: absolute;
+    right: 42px;
+    top:24px;
+
     border-radius: 50%;
 
     width: 24px;
@@ -73,10 +72,10 @@ export const ToggleButton = styled.div`
     
     background: #06649E;
     box-shadow: 0px 0px 10px rgba(6, 100, 158, 0.8);
-    margin-top: -2px;
-`
+/*     margin-top: -2px;
+ */`
 
-export const QuestionH1 = styled.h1`
+export const Collapsible = styled.span`
     font-size: 24px;
     font-weight: normal;
     line-height: 24px;
@@ -100,7 +99,8 @@ export const PP = styled.div`
 export const AnswerP = styled.p`
     display: block;
 
-    width: 75%;
+    width: 100%;
+    padding-right:80px;
     font-size: 18px;
     font-weight: 300;
     line-height: 160%;
@@ -108,4 +108,6 @@ export const AnswerP = styled.p`
 
     white-space: pre-wrap;          
     margin-top: 24px;
+
+    position:relative;
 `

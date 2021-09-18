@@ -1,33 +1,33 @@
-import jek from '../../images/svg-1.svg';
+import jek from "../../images/svg-1.svg";
 
 export const homeObjOne = {
-    id: 'about',
-    headline: 'about us',
-    topline: 'jeKnowledge',
-    img: jek,
-    alt: 'jeK',
-    imgStart: false,
-    rotatePoint: false,
-    leftPoint: true,
-    moreMargin: true,
-    point2: false,
+  id: "about",
+  headline: "about us",
+  topline: "jeKnowledge",
+  img: jek,
+  alt: "jeK",
+  imgStart: false,
+  rotatePoint: false,
+  leftPoint: true,
+  moreMargin: true,
+  point2: false,
 
-    p1: 'We’re a Junior Company of FCTUC that was founded in 2008 in order to provide students the opportunity to apply their academic knowledge either in external or internal projects. These students attend several courses at the Faculty of Science and Technology, from Bachelor to Master.',
-    p2: 'At jeKnowledge there are opportunities to work in multidisciplinary teams, as well as to develop new skills applicable in real situations.',
-}
+  p1: "A jeKnowledge é uma Júnior Empresa da FCTUC fundada em 2008. Esta Júnior Empresa foi fundada com o intuito de proporcionar aos estudantes da Faculdade de Ciências e Tecnologias uma oportunidade de aplicar os seus conhecimentos acadêmicos em projetos externos e internos.",
+  p2: "Durante um dia inteiro iremos promover o ambiente ideal para os participantes aprenderem mais sobre este tema, com especialistas habilidosos e informados. Com palestras e workshops, pretendemos proporcionar uma oportunidade única de desenvolver as capacidades dos participantes nesta mesma temática. Aproveita para ampliares a tua rede profissional, investir em ti mesmo,  e compartilhar as tuas ideias com os intervenientes deste evento.",
+};
 
 export const homeObjTwo = {
-    id: 'past',
-    headline: 'past edition',
-    year: '2020',
-    topline: 'Online Edition',
-    img: jek,
-    alt: 'jeK',
-    imgStart: true,
-    rotatePoint: true,
-    leftPoint: false,
-    moreMargin: false,
-    point2: true,
+  id: "past",
+  headline: "past edition",
+  year: "2020",
+  topline: "Online Edition",
+  img: jek,
+  alt: "jeK",
+  imgStart: true,
+  rotatePoint: true,
+  leftPoint: false,
+  moreMargin: false,
+  point2: true,
 
-    p1: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum, lectus nec vulputate cursus, massa odio convallis felis, sed interdum diam mauris sed risus. Ut tempor lorem ac orci lacinia, at laoreet arcu finibus. Nullam tellus neque, congue quis mollis eu, eleifend quis turpis.',
-}
+  p1: "A edição de fevereiro de 2021 teve um formato diferente daquele que projetamos este ano. O evento durou dois dias e realizou-se remotamente. Todo o evento foi em inglês, sendo que nesta edição também contamos com a comunicação em português. Durante a edição passada tivemos diversos momentos dinâmicos como talks com especialistas na área, workshops sobre Blockchain e aplicações da mesma e também momentos de networking.",
+};
