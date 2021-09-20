@@ -36,8 +36,17 @@ export const TeamBar = styled.div`
   @media screen and (max-width: 760px) {
     margin-right: -208px;
   }
+
+  @media screen and (max-width: 480px) {
+    margin-left: 25px;
+    justify-content: flex-start;
+  }
 `;
 
 export const Team = styled.div`
   width: max-content;
+
+  @media screen and (max-width: 480px) {
+    padding-right: 0;
+  }
 `;

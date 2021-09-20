@@ -11,7 +11,7 @@ import { ReactComponent as JeKIcon } from "../../images/jek.svg";
 
 export const FooterContainer = styled.div`
   width: 100vw;
-  height: 300px;
+  padding: 40px 0;
 
   display: flex;
   justify-content: center;
@@ -27,6 +27,11 @@ export const FooterContent = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  @media screen and (max-width: 760px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const PointWrapper = styled.div`
@@ -35,6 +40,10 @@ export const PointWrapper = styled.div`
   align-items: center;
 
   height: 105%;
+
+  @media screen and (max-width: 760px) {
+    display: none;
+  }
 `;
 
 export const PointV = styled(Point)`
@@ -111,6 +120,10 @@ export const SocialMediaSection = styled.div`
   @media screen and (max-width: 800px) {
     height: 200px;
     flex-direction: column;
+  }
+
+  @media screen and (max-width: 760px) {
+    flex-direction: row;
   }
 `;
 

@@ -7,7 +7,7 @@ export const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 30px;
+  /* padding: 0 30px; */
   height: 100vh;
   position: relative;
   z-index: 1;
@@ -49,6 +49,7 @@ export const HeroH1 = styled.h1`
 
   @media screen and (max-width: 480px) {
     font-size: 42px;
+    width: 300px;
   }
 `;
 
@@ -59,12 +60,14 @@ export const PointWrapper = styled.div`
 
   @media screen and (max-width: 760px) {
     width: 750px;
-    margin-left: -350px;
+    margin-left: -340px;
+    background: red;
   }
 
   @media screen and (max-width: 480px) {
     width: 700px;
-    margin-left: -450px;
+    margin-left: -415px;
+    background: blue;
   }
 `;
 
@@ -85,7 +88,11 @@ export const ArrowForward = styled(MdArrowForward)`
   font-size: 22px;
 
   background: linear-gradient(#9c47fc, #356ad2);
+  background: -webkit-linear-gradient(#9c47fc, #356ad2);
+
   background-clip: text;
+  -webkit-background-clip: text;
+
   -webkit-text-fill-color: transparent;
 `;
 

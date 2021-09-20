@@ -1,5 +1,4 @@
-import styled, { keyframes } from 'styled-components';
-
+import styled, { keyframes } from "styled-components";
 
 const bounceAnimation = keyframes`
  0% {
@@ -20,48 +19,52 @@ const bounceAnimation = keyframes`
 `;
 
 export const DateContainer = styled.div`
-    background: white;
-    width: 100vw;
-    height: 170px;
-    z-index: 1;
+  background: white;
+  width: 100vw;
+  height: 170px;
+  z-index: 1;
 
-    display: inline-flex;
-    align-items: center;
-    
-    white-space:nowrap;
-    overflow: hidden;
-    
-    @media screen and (max-width: 760px) {
-      height: 130px;
-    }
+  display: inline-flex;
+  align-items: center;
 
-    @media screen and (max-width: 480px) {
-      height: 120px;
-    }
+  white-space: nowrap;
+  overflow: hidden;
+
+  @media screen and (max-width: 760px) {
+    height: 130px;
+  }
+
+  @media screen and (max-width: 480px) {
+    height: 120px;
+  }
 `;
 
 export const SlideContainer = styled.div`
-    display: inline-flex;
-    animation: 16s ${bounceAnimation} linear infinite;
-`
+  display: inline-flex;
+  animation: 16s ${bounceAnimation} linear infinite;
+`;
 
 export const DateH2 = styled.h2`
-    width: max-content;
-    margin-right: 24px;
-    
-    font-size: 70px;
-    font-weight: 600;
-    line-height: normal;
+  width: max-content;
+  margin-right: 24px;
 
-    background: linear-gradient(0.25turn, #040305, #1D2444, #06649E);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 70px;
+  font-weight: 600;
+  line-height: normal;
 
-    @media screen and (max-width: 760px) {
-      font-size: 55px;
-    }
+  background: linear-gradient(0.25turn, #040305, #1d2444, #06649e);
+  background: -webkit-linear-gradient(0.25turn, #040305, #1d2444, #06649e);
 
-    @media screen and (max-width: 480px) {
-      font-size: 35px;
-    }
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+  @media screen and (max-width: 760px) {
+    font-size: 55px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 35px;
+  }
 `;
