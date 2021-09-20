@@ -153,6 +153,52 @@
   transition: all 0.2s ease-in-out;
 }
 
+@media screen and (max-width: 860px) {
+  .element:nth-child(2n + 0)::after {
+    background: red;
+  }
+
+  .element:nth-child(1n + 5)::before {
+    background: red;
+  }
+
+  .element:nth-child(1n + 7)::before {
+    background: red;
+  }
+
+  .element:nth-child(1n + 3)::after {
+    background: red;
+  }
+
+  .element:nth-child(1n + 0)::after {
+    background: white;
+  }
+
+  .element:nth-child(3n + 3)::after {
+    background: transparent;
+  }
+
+  .element:nth-child(1n + 0)::before {
+    background: white;
+  }
+
+  .element:first-child::after {
+    background: white;
+  }
+
+  .element:nth-child(1n + 6)::before {
+    background: transparent;
+  }
+
+  .element:nth-child(6)::before {
+    background: transparent;
+  }
+
+  .element:last-child::after {
+    background: transparent;
+  }
+}
+
 @media screen and (max-width: 440px) {
   .container {
     grid-template-columns: repeat(1, 1fr);
@@ -166,6 +212,10 @@
   /*linha vertical*/
   .element::before {
     background: white;
+  }
+
+  .element:nth-child(1n + 0)::after {
+    background: transparent;
   }
 
   .element:nth-child(2n + 0)::after {

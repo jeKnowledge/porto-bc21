@@ -27,6 +27,7 @@ export const FooterContent = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 
   @media screen and (max-width: 760px) {
     flex-direction: column;
