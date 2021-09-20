@@ -21,6 +21,7 @@ span {
   span {
     max-width: max-content;
     font-size: 18px;
+    line-height: 16px;
     padding-right: 8px;
   }
 }

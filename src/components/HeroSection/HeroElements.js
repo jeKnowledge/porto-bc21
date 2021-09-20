@@ -61,13 +61,11 @@ export const PointWrapper = styled.div`
   @media screen and (max-width: 760px) {
     width: 750px;
     margin-left: -340px;
-    background: red;
   }
 
   @media screen and (max-width: 480px) {
     width: 700px;
     margin-left: -415px;
-    background: blue;
   }
 `;
 

@@ -11,18 +11,18 @@ import { ReactComponent as JeKIcon } from "../../images/jek.svg";
 
 export const FooterContainer = styled.div`
   width: 100vw;
+  height: max-content;
   padding: 40px 0;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
-  background: #000;
+  background: black;
 `;
 
 export const FooterContent = styled.div`
   width: 80%;
-  height: 180px;
 
   display: flex;
   flex-direction: row;
@@ -58,6 +58,11 @@ export const ContactsSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  @media screen and (max-width: 450px) {
+    width: 50%;
+    text-align: center;
+  }
 `;
 
 export const SocialSection = styled.div`
@@ -77,6 +82,16 @@ export const LogoSection = styled.div`
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-between;
+
+  @media screen and (max-width: 450px) {
+    width: 80%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
 `;
 
 export const Title = styled.div`
@@ -124,6 +139,10 @@ export const SocialMediaSection = styled.div`
 
   @media screen and (max-width: 760px) {
     flex-direction: row;
+  }
+
+  @media screen and (max-width: 450px) {
+    height: 150px;
   }
 `;
 

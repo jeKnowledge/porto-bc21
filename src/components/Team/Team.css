@@ -158,4 +158,33 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 55px;
   }
+
+  .element::after {
+    background: transparent;
+  }
+
+  /*linha vertical*/
+  .element::before {
+    background: white;
+  }
+
+  .element:nth-child(2n + 0)::after {
+    background: transparent;
+  }
+
+  .element:nth-child(1n + 5)::before {
+    background: transparent;
+  }
+
+  .element:nth-child(1n + 7)::before {
+    background: transparent;
+  }
+
+  .element:nth-child(1n + 0)::before {
+    background: white;
+  }
+
+  .element:last-child::before {
+    background: transparent;
+  }
 }
