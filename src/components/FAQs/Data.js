@@ -13,4 +13,9 @@ export const Data = [
     question: "O evento oferece certificado?",
     answer: "Sim, todos os participantes terão direito a um certificado.",
   },
+  {
+    question: "Quando posso adquirir o bilhete?",
+    answer:
+      "Os bilhetes estarão à venda no próximo mês de Outubro , fica atento ao nosso site e redes sociais.",
+  },
 ];
