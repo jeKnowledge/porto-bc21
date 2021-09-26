@@ -1,4 +1,5 @@
 import jek from "../../images/svg-1.svg";
+import online from "../../images/secondp.png";
 
 export const homeObjOne = {
   id: "about",
@@ -21,7 +22,7 @@ export const homeObjTwo = {
   headline: "past edition",
   year: "2020",
   topline: "Online Edition",
-  img: jek,
+  img: online,
   alt: "jeK",
   imgStart: true,
   rotatePoint: true,

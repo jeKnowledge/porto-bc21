@@ -21,7 +21,7 @@
 /*Grid em mobile*/
 @media only screen and (max-width: 620px) {
   .container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 55px;
   }
 }
@@ -68,6 +68,14 @@
 }
 
 .element:nth-child(1n + 5)::before {
+  background: transparent;
+}
+
+.element:nth-child(4)::before {
+  background: transparent;
+}
+
+.element:nth-child(7)::after {
   background: transparent;
 }
 
@@ -190,6 +198,10 @@
     background: transparent;
   }
 
+  .element:nth-child(5)::before {
+    background: transparent;
+  }
+
   .element:nth-child(6)::before {
     background: transparent;
   }
@@ -199,7 +211,7 @@
   }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 620px) {
   .container {
     grid-template-columns: repeat(1, 1fr);
     gap: 55px;

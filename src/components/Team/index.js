@@ -7,6 +7,10 @@ import Filipa from "./FilipaBotinas.png";
 import Leonor from "./LeonorJacob.png";
 import Raposo from "./MariaRaposo.png";
 
+import Iris from "./IrisAlmeida.png";
+import Joao from "./JoãoRodrigues.png";
+import Marta from "./MartaPereira.png";
+
 import "./Team.css";
 
 const TeamSection = () => {
@@ -81,6 +85,34 @@ const TeamSection = () => {
 
           <div class="element">
             <div class="imgA">
+              <img class="img" src={Iris} />
+              <div
+                class="whiteBG"
+                onMouseOver={MouseOver}
+                onMouseOut={MouseOut}
+              >
+                <p class="nameTeam">Irís Almeidao</p>
+                <p class="jobTeam">Parcerias</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="element">
+            <div class="imgA">
+              <img class="img" src={Joao} />
+              <div
+                class="whiteBG"
+                onMouseOver={MouseOver}
+                onMouseOut={MouseOut}
+              >
+                <p class="nameTeam">João Rodrigues</p>
+                <p class="jobTeam">Logística</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="element">
+            <div class="imgA">
               <img class="img" src={Angela} />
               <div
                 class="whiteBG"
@@ -95,36 +127,14 @@ const TeamSection = () => {
 
           <div class="element">
             <div class="imgA">
-              <img class="img" src={Angela} />
-              <div class="whiteBG">
-                <p class="nameTeam">Filipa Bonitas</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="element">
-            <div class="imgA">
-              <img class="img" src={Angela} />
-              <div class="whiteBG">
-                <p class="nameTeam">Filipa Bonitas</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="element">
-            <div class="imgA">
-              <img class="img" src={Angela} />
-              <div class="whiteBG">
-                <p class="nameTeam">Filipa Bonitas</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="element">
-            <div class="imgA">
-              <img class="img" src={Angela} />
-              <div class="whiteBG">
-                <p class="nameTeam">Filipa Bonitas</p>
+              <img class="img" src={Marta} />
+              <div
+                class="whiteBG"
+                onMouseOver={MouseOver}
+                onMouseOut={MouseOut}
+              >
+                <p class="nameTeam">Marta Pereira</p>
+                <p class="jobTeam">Comunicação</p>
               </div>
             </div>
           </div>
