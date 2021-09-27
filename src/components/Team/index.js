@@ -91,7 +91,7 @@ const TeamSection = () => {
                 onMouseOver={MouseOver}
                 onMouseOut={MouseOut}
               >
-                <p class="nameTeam">Irís Almeidao</p>
+                <p class="nameTeam">Irís Almeida</p>
                 <p class="jobTeam">Parcerias</p>
               </div>
             </div>

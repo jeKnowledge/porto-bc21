@@ -2,10 +2,19 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hind", sans-serif;
 }
 
-body { /* ily */
-  background: linear-gradient(180deg, #040305 4.57%, 
-        #1D2444 20.83%, #0D679E 40.1%, #1D2444 68.75%, #040305 100%);
+body {
+  /* ily */
+  background: linear-gradient(
+    180deg,
+    #040305 4.57%,
+    #1d2444 20.83%,
+    #0d679e 40.1%,
+    #1d2444 68.75%,
+    #040305 100%
+  );
+
+  overflow-x: hidden;
 }
