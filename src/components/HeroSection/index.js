@@ -25,7 +25,7 @@ const HeroSection = () => {
         <PointWrapper>
           <PointF />
         </PointWrapper>
-        <HeroBtnWrapper>
+        {/* <HeroBtnWrapper>
           <Button
             to="register"
             onMouseEnter={onHover}
@@ -39,7 +39,7 @@ const HeroSection = () => {
             )}
             {hover ? <ArrowRight /> : <ArrowForward />}
           </Button>
-        </HeroBtnWrapper>
+        </HeroBtnWrapper> */}
       </HeroContent>
     </HeroContainer>
   );

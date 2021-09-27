@@ -1,4 +1,4 @@
-import jek from "../../images/jeK.png";
+import jek from "../../images/jek.png";
 import online from "../../images/secondp.png";
 
 export const homeObjOne = {
