@@ -49,7 +49,7 @@ const TeamSection = () => {
                 onMouseOver={MouseOver}
                 onMouseOut={MouseOut}
               >
-                <p class="nameTeam">Filipa Bonitas</p>
+                <p class="nameTeam">Filipa Botinas</p>
                 <p class="jobTeam">Project Manager</p>
               </div>
             </div>
