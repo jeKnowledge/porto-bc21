@@ -111,7 +111,7 @@ export const Title = styled.div`
 
 export const Info = styled.div`
   font-weight: normal;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 26px;
   margin-top: 4px;
 

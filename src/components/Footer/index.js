@@ -72,7 +72,7 @@ const FooterSection = () => {
         <LogoSection>
           <PortoBCLogo to="/" onClick={toggleHome} />
           <JeKSection>
-            <Info>Created by:</Info>
+            <Info>Criado por:</Info>
             <a href="https://jeknowledge.pt" target="_blank">
               <JeKnowlege />
             </a>
