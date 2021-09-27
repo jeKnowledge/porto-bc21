@@ -3,7 +3,7 @@ import online from "../../images/secondp.png";
 
 export const homeObjOne = {
   id: "about",
-  headline: "about us",
+  headline: "Sobre nós",
   topline: "jeKnowledge",
   img: jek,
   alt: "jeK",
@@ -19,9 +19,9 @@ export const homeObjOne = {
 
 export const homeObjTwo = {
   id: "past",
-  headline: "past edition",
+  headline: "Edição passada",
   year: "2020",
-  topline: "Online Edition",
+  topline: "Edição online",
   img: online,
   alt: "jeK",
   imgStart: true,

@@ -13,6 +13,7 @@ export const FooterContainer = styled.div`
   width: 100vw;
   height: max-content;
   padding: 40px 0;
+  margin-top: 80px;
 
   display: flex;
   justify-content: center;

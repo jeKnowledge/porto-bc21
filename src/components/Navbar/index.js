@@ -52,7 +52,7 @@ const Navbar = ({ toggle }) => {
                 exact="true"
                 offsett={0}
               >
-                ABOUT US
+                SOBRE NÓS
               </NavLinks>
             </NavItem>
             <NavItem>
@@ -64,7 +64,7 @@ const Navbar = ({ toggle }) => {
                 exact="true"
                 offsett={0}
               >
-                PAST EDITION
+                EDIÇÃO PASSADA
               </NavLinks>
             </NavItem>
             <NavItem>
@@ -76,7 +76,7 @@ const Navbar = ({ toggle }) => {
                 exact="true"
                 offsett={-80}
               >
-                TEAM
+                EQUIPA
               </NavLinks>
             </NavItem>
             <NavItem>
@@ -88,7 +88,7 @@ const Navbar = ({ toggle }) => {
                 exact="true"
                 offsett={-80}
               >
-                FAQ
+                FAQS
               </NavLinks>
             </NavItem>
             {/* <NavItem>

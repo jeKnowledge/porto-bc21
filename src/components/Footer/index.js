@@ -30,7 +30,7 @@ const FooterSection = () => {
     <FooterContainer>
       <FooterContent>
         <ContactsSection>
-          <Title>Contacts</Title>
+          <Title>Contactos</Title>
           <div>
             <Info>geral@portobc.com</Info>
             <Info>+351 926 590 223</Info>

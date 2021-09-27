@@ -32,7 +32,7 @@ const TeamSection = () => {
       <TeamContainer id="team">
         <TeamBar>
           <Team>
-            <Heading moreMargin={false}>TEAM</Heading>
+            <Heading moreMargin={false}>EQUIPA</Heading>
 
             <PointWrapper rotatePoint={true} leftPoint={false}>
               <PointF />
