@@ -1,8 +1,7 @@
 export const Data = [
   {
     question: "Onde irá decorrer o Porto.Bc?",
-    answer:
-      "Tal como o nome indica, o Porto.Bc irá decorrer no Porto, mais especificamente no Hotel Selina. ",
+    answer: "O Porto.Bc decorrerá remotamente através da plataforma Zoom.",
   },
   {
     question: "Qualquer pessoa pode participar no Porto.Bc?",
@@ -12,10 +11,5 @@ export const Data = [
   {
     question: "O evento oferece certificado?",
     answer: "Sim, todos os participantes terão direito a um certificado.",
-  },
-  {
-    question: "Quando posso adquirir o bilhete?",
-    answer:
-      "Os bilhetes estarão à venda no próximo mês de Outubro , fica atento ao nosso site e redes sociais.",
   },
 ];

@@ -42,7 +42,7 @@ export const QuestionWrap = styled.div`
   width: 100%;
   margin-bottom: 40px;
 
-  padding: 24px 40px;
+  //padding: 24px 40px;
   background: blue;
 
   background: #0e101e;
@@ -50,9 +50,9 @@ export const QuestionWrap = styled.div`
   box-shadow: 0px 0px 15px #ffffff;
   border-radius: 18px;
 
-  @media screen and (max-width: 420px) {
+  /* @media screen and (max-width: 420px) {
     padding: 24px 16px;
-  }
+  } */
 `;
 
 export const QuestionBox = styled.div`
@@ -80,25 +80,25 @@ export const ToggleButton = styled.div`
  */
 `;
 
-export const Collapsible = styled.span`
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 24px;
-  color: #fff;
+// export const Collapsible = styled.span`
+//   font-size: 24px;
+//   font-weight: normal;
+//   line-height: 24px;
+//   color: #fff;
 
-  text-transform: uppercase;
-  white-space: pre-wrap;
+//   text-transform: uppercase;
+//   white-space: pre-wrap;
 
-  @media screen and (max-width: 1000px) {
-    max-width: 450px;
-  }
+//   /* @media screen and (max-width: 1000px) {
+//     max-width: 450px;
+//   }
 
-  @media screen and (max-width: 760px) {
-    max-width: 300px;
-  }
+//   @media screen and (max-width: 760px) {
+//     max-width: 300px;
+//   } */
 
-  background: red;
-`;
+//   background: yellow;
+// `;
 
 export const PP = styled.div``;
 
@@ -107,13 +107,15 @@ export const AnswerP = styled.p`
 
   width: 100%;
   padding-right: 80px;
+  padding-left: 24px;
+  padding-bottom: 12px;
+
   font-size: 18px;
   font-weight: 300;
   line-height: 160%;
   color: #fff;
 
   white-space: pre-wrap;
-  margin-top: 24px;
 
   position: relative;
 

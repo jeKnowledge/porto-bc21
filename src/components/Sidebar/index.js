@@ -33,9 +33,14 @@ const Sidebar = ({ isOpen, toggle }) => {
           {/*                      <SidebarLink to='tickets' onClick={toggle}>TICKETS</SidebarLink>
            */}{" "}
         </SidebarMenu>
-        {/*<SidebarBtwnWrap>
-                    <SidebarRoute to='/register'>REGISTER HERE!</SidebarRoute>
-                </SidebarBtwnWrap> */}
+        <SidebarBtwnWrap>
+          <SidebarRoute
+            href="https://jeknowledge.typeform.com/to/g9kEyU"
+            target="_blank"
+          >
+            TICKETS HERE!
+          </SidebarRoute>
+        </SidebarBtwnWrap>
       </SidebarWrapper>
     </SidebarContainer>
   );

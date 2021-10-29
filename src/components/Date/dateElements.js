@@ -7,14 +7,14 @@ const bounceAnimation = keyframes`
   }
   97% {
     opacity: 1;
-    transform: translate3d(-47%, 0, 0);
+    transform: translate3d(-40%, 0, 0);
     transition: ease-in;
   }
 
   100%{
     transition: ease-out;
     opacity: 0;
-    transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-45%, 0, 0);
   }
 `;
 

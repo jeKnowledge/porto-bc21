@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as Point } from "../../images/Point01.svg";
+import { ReactComponent as Point } from "../../images/NewPoint.svg";
 import { MdArrowForward, MdKeyboardArrowRight } from "react-icons/md";
 
 export const HeroContainer = styled.div`
@@ -54,9 +54,9 @@ export const HeroH1 = styled.h1`
 `;
 
 export const PointWrapper = styled.div`
-  width: 900px;
+  width: 1200px;
 
-  margin-left: -250px;
+  margin-left: -550px;
 
   @media screen and (max-width: 760px) {
     width: 750px;

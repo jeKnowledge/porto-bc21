@@ -6,9 +6,11 @@ const DateSection = () => {
     <DateContainer>
       <SlideContainer>
         <DateH2>6 DE NOVEMBRO ·</DateH2>
-        <DateH2>PORTO, PORTUGAL ·</DateH2>
+        <DateH2>ONLINE ·</DateH2>
         <DateH2>6 DE NOVEMBRO ·</DateH2>
-        <DateH2>PORTO, PORTUGAL ·</DateH2>
+        <DateH2>ONLINE ·</DateH2>
+        <DateH2>6 DE NOVEMBRO ·</DateH2>
+        <DateH2>ONLINE ·</DateH2>
         <DateH2>6 DE NOVEMBRO ·</DateH2>
       </SlideContainer>
     </DateContainer>

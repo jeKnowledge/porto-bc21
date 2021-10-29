@@ -16,7 +16,7 @@ export const Nav = styled.nav`
   align-items: center;
 
   background: ${({ scrollNav }) =>
-    scrollNav ? "rgba(0, 0, 0, 0.2)" : "transparent"};
+    scrollNav ? "rgba(0, 0, 0, 0.7)" : "transparent"};
   font-size: 1rem;
   z-index: 10;
 
@@ -50,7 +50,7 @@ export const NavLogo = styled.div`
 export const MobileIcon = styled.div`
   display: none;
 
-  @media screen and (max-width: 950px) {
+  @media screen and (max-width: 1000px) {
     display: block;
     position: absolute;
     top: 0;
@@ -68,7 +68,7 @@ export const NavMenu = styled.ul`
   list-style: none;
   text-align: center;
 
-  @media screen and (max-width: 950px) {
+  @media screen and (max-width: 1000px) {
     display: none;
   }
 `;
@@ -78,6 +78,25 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+  margin-left: 40px;
+
+  &.active {
+    border-bottom: 3px solid #50a1d2;
+  }
+
+  &:hover {
+    color: #50a1d2;
+  }
+`;
+
+export const NavLinksHref = styled.a`
   color: #ffffff;
   display: flex;
   align-items: center;

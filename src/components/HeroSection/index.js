@@ -25,21 +25,22 @@ const HeroSection = () => {
         <PointWrapper>
           <PointF />
         </PointWrapper>
-        {/* <HeroBtnWrapper>
+        <HeroBtnWrapper>
           <Button
-            to="register"
+            href="https://jeknowledge.typeform.com/to/g9kEyU"
+            target="_blank"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             fontBig="true"
           >
             {hover ? (
-              <ButtonP2>REGISTER HERE</ButtonP2>
+              <ButtonP2>TICKETS HERE</ButtonP2>
             ) : (
-              <ButtonP>REGISTER HERE</ButtonP>
+              <ButtonP>TICKETS HERE</ButtonP>
             )}
             {hover ? <ArrowRight /> : <ArrowForward />}
           </Button>
-        </HeroBtnWrapper> */}
+        </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>
   );

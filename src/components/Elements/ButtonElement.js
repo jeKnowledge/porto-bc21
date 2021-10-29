@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { Link } from "react-scroll";
+import { BrowserRouter as Router, Link } from "react-scroll";
 
-export const Button = styled(Link)`
+export const Button = styled.a`
   border-radius: 18px;
   background: ${({ primary }) => (primary ? "red" : "#fff")};
   white-space: nowrap;
@@ -15,6 +15,7 @@ export const Button = styled(Link)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   display: inline-flex;
+  text-decoration: none;
 
   &:hover {
     transition: all 0.2s ease-in-out;

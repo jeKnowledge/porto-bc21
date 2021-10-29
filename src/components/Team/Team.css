@@ -12,7 +12,7 @@
 }
 
 /*Grid em tablet*/
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 1000px) {
   .container {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -161,7 +161,7 @@
   transition: all 0.2s ease-in-out;
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 1000px) {
   .element:nth-child(2n + 0)::after {
     background: red;
   }

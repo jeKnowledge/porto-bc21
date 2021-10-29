@@ -17,9 +17,9 @@ export const Heading = styled.h1`
 `;
 
 export const PointWrapper = styled.div`
-  width: 750px;
+  width: 1100px;
 
-  margin-left: ${({ leftPoint }) => (leftPoint ? "-265px" : "25px")};
+  margin-left: ${({ leftPoint }) => (leftPoint ? "-565px" : "25px")};
   margin-top: -15px;
   margin-bottom: 44px;
 

@@ -31,9 +31,9 @@ export const Grid = styled.div`
 export const TeamBar = styled.div`
   display: flex;
   justify-content: flex-end;
-  margin-right: -48px;
+  margin-right: -148px;
 
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 900px) {
     margin-right: -208px;
   }
 
@@ -45,6 +45,7 @@ export const TeamBar = styled.div`
 
 export const Team = styled.div`
   width: max-content;
+  margin-right: -15%;
 
   @media screen and (max-width: 480px) {
     padding-right: 0;

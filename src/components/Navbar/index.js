@@ -9,6 +9,7 @@ import {
   MobileIcon,
   NavMenu,
   NavItem,
+  NavLinksHref,
   NavLinks,
 } from "./NavbarElements";
 
@@ -90,6 +91,14 @@ const Navbar = ({ toggle }) => {
               >
                 FAQS
               </NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinksHref
+                href="https://jeknowledge.typeform.com/to/g9kEyU"
+                target="_blank"
+              >
+                TICKETS
+              </NavLinksHref>
             </NavItem>
             {/* <NavItem>
                         <NavLinks to='tickets'
