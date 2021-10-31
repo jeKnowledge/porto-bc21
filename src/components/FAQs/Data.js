@@ -12,4 +12,8 @@ export const Data = [
     question: "O evento oferece certificado?",
     answer: "Sim, todos os participantes terão direito a um certificado.",
   },
+  {
+    question: "Qual é o valor da taxa de inscrição?",
+    answer: "O valor da inscrição é de 3€.",
+  },
 ];
