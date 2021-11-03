@@ -10,6 +10,9 @@ import FAQsSection from "../components/FAQs";
 import TeamSection from "../components/Team";
 import SubsSection from "../components/Subscribe";
 import FooterSection from "../components/Footer";
+import SpeakersSection from "../components/Speakers";
+import { speakerOne, speakerTwo } from "../components/Speakers/data";
+import RoundTableSection from "../components/Round table";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,6 +32,8 @@ const Home = () => {
       <InfoSection {...homeObjTwo} />
       <TeamSection />
       <FAQsSection />
+      <SpeakersSection />
+      <RoundTableSection />
       {/* <SubsSection /> */}
       <FooterSection />
     </>
